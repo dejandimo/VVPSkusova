@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <title>Търсене на полети</title>
+</head>
+<body>
+    <h1>Търсене на полети</h1>
+
+    <form id="flight-search-form">
+        <label for="city">Град:</label>
+        <input type="text" id="city" name="city" value="София" required>
+
+        <label for="date">Дата:</label>
+        <input type="date" id="date" name="date" value="2025-04-15" required>
+
+        <button type="submit">Търси</button>
+    </form>
+
+    <div id="results">
+        <h2>Резултати за полети от София на 2025-04-15:</h2>
+        <ul>
+            <li>Примерен полет 1 от София на 2025-04-15</li>
+            <li>Примерен полет 2 от София на 2025-04-15</li>
+        </ul>
+    </div>
+</body>
+</html>
